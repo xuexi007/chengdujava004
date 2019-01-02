@@ -9,4 +9,6 @@ public interface MobileDao {
  public void saves(List<Mobile> list);
  
  public Mobile findMobile(String mobilenumber);
+ //新增一个获取全部数据的方法
+ public void getall();
 }
