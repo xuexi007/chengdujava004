@@ -1,7 +1,11 @@
 package com.offcn.po;
 
 import javax.xml.bind.annotation.XmlRootElement;
-
+/**
+ * 实体bean :孙老师新增注释
+ * @author Administrator
+ *
+ */
 //xml格式可以直接从bean转化
 @XmlRootElement(name="mobile")
 public class Mobile {
