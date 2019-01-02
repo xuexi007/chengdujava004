@@ -9,7 +9,12 @@ public interface MobileDao {
  public void saves(List<Mobile> list);
  
  public Mobile findMobile(String mobilenumber);
+
  
  //小白新增指定编号的手机号码
  public List<Mobile> getAllMobile(String areacode);
+
+ //新增一个获取全部数据的方法
+ public void getall();
+
 }
